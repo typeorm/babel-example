@@ -32,7 +32,7 @@
   "dependencies": {
     "mysql": "^2.12.0",
     "reflect-metadata": "^0.1.9",
-    "typeorm": "0.0.8-alpha.6"
+    "typeorm": "0.0.8"
   },
   "scripts": {
     "start": "babel src --out-dir dist && node dist/index.js"
