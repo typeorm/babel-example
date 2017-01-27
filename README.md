@@ -1,4 +1,4 @@
-# Example how to use TypeORM with JavaScript + Babel
+# Example how to use [TypeORM](https://github.com/typeorm/typeorm) with JavaScript + Babel
 
 1. clone repository 
 2. run `npm i`
