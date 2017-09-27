@@ -18,7 +18,7 @@ createConnection().then(connection => {
 
     return connection
         .getRepository(Post)
-        .persist(post)
+        .save(post)
         .then(post => {
             console.log("Post has been saved: ", post);
         });

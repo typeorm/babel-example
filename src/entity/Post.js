@@ -1,13 +1,13 @@
-import {Entity, PrimaryColumn, Column, ManyToMany, JoinTable} from "typeorm";
+import {Entity, PrimaryGeneratedColumn, Column, ManyToMany, JoinTable} from "typeorm";
 import {Category} from "./Category";
 
 @Entity()
 export class Post {
 
-    @PrimaryColumn("int", { generated: true })
+    @PrimaryGeneratedColumn()
     id = undefined;
 
-    @Column("string")
+    @Column("varchar")
     title = "";
 
     @Column("text")
