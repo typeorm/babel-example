@@ -13,7 +13,7 @@ export class Post {
     @Column("text")
     text = "";
 
-    @ManyToMany(type => Category, { cascadeInsert: true })
+    @ManyToMany(type => Category, { cascade: true })
     @JoinTable()
     categories = undefined;
 
