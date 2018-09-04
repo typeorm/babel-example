@@ -1,11 +1,7 @@
 {
   "name": "default",
-  "type": "mysql",
-  "host": "localhost",
-  "port": 3306,
-  "username": "test",
-  "password": "test",
-  "database": "test",
+  "type": "sqlite",
+  "database": "database.sqlite",
   "synchronize": true,
   "entities": [
     "dist/entity/*.js"

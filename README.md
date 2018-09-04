@@ -1,10 +1,9 @@
 # Example how to use [TypeORM](https://github.com/typeorm/typeorm) with JavaScript + Babel
 
-1. clone repository 
+1. clone repository
 2. run `npm i`
-3. edit `ormconfig.json` and change your database configuration (you can also change a database type, but don't forget to install specific database drivers)
-4. run `npm start`
-5. enjoy!
+3. run `npm start`
+4. enjoy!
 
 ## How to use CLI?
 
