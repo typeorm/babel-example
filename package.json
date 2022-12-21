@@ -1,36 +1,20 @@
 {
-  "name": "typeorm-babel-example",
-  "version": "0.0.1",
-  "description": "Example how to use TypeORM with JavaScript + Babel.",
+  "name": "code-first-abono",
+  "version": "1.0.0",
+  "description": "Implement Abono using TypeORM with JavaScript + Babel.",
   "license": "MIT",
-  "readmeFilename": "README.md",
-  "author": {
-    "name": "Umed Khudoiberdiev",
-    "email": "pleerock.me@gmail.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/typeorm/babel-example.git"
-  },
-  "bugs": {
-    "url": "https://github.com/typeorm/babel-example/issues"
-  },
   "tags": [
-    "orm",
-    "babel",
-    "babel-orm",
-    "typeorm-sample",
-    "typeorm-example"
+    "code-first"
   ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
     "babel-preset-es2015": "^6.24.1"
   },
   "dependencies": {
-    "mysql": "^2.14.1",
-    "typeorm": "^0.2.0"
+    "mysql2": "^2.3.3",
+    "typeorm": "^0.3.11"
   },
   "scripts": {
     "start": "babel src --out-dir dist && node dist/index.js"
